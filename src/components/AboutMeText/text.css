@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.text-container {
+    margin-left: 50px;
+    margin-right: 90px;
+    margin-top: 100px;
+}
+
+.titles {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.para {
+    font-size: 20px;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.go-button {
+    font-size: 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.027);
+    color: #000;
+    border: none;
+    color: #fff;
+    padding: 20px 30px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 0 20px 26px rgba(44, 43, 43, 0.158);
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+
+}
+
+.popup.active {
+    display: flex;
+}
+
+.popup-content {
+    background-color: #1f1c1c;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    width: 900px;
+    max-width: 90%;
+    max-height: 70vh;
+    overflow-y: auto;
+
+}
+
+.popup-content button {
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.picPopup {
+    width: 300px;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.picPopup2 {
+    width: 600px;
+    margin-left: 90px
+}

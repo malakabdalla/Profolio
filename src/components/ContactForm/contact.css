@@ -1,0 +1,84 @@
+.form-title {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contact {
+    width: 100%;
+    max-width: 400px;
+
+    margin: 0 auto;
+}
+
+.form-field {
+    margin-bottom: 1rem;
+}
+
+.button-filed {
+    width: 100%;
+}
+
+.contact input,
+.contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem 2.5rem;
+    width: 100%;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #007bff;
+
+    outline: none;
+}
+
+
+.contact label {
+    display: block;
+
+    font-family: "Hind", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.contact .icon {
+    margin-right: 0.5rem;
+}
+
+
+.button-filed {
+
+    transition: background-color 0.3s ease;
+    font-size: 26px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.027);
+    color: #000;
+    border: 1px;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(20px);
+
+    box-shadow: 0 20px 26px rgba(44, 43, 43, 0.158);
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 200px;
+}
+
+.button-filed .button:hover {
+    background-color: #218838;
+
+}
+
+.button-filed .button:active {
+    transform: translateY(1px);
+
+}

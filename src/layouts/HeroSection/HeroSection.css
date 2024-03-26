@@ -1,0 +1,44 @@
+.heroSection {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.line-1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+
+
+}
+
+
+.name-section {
+
+    margin-right: 5rem;
+    padding-right: 5rem;
+
+}
+
+.pic {
+    width: 360px;
+    border-radius: 150px;
+}
+
+.buttons {
+    margin-top: 50px;
+
+}
+
+.herobuttons {
+    margin: 20px;
+    padding: 12px 30px;
+    background: #5a7ffb;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}

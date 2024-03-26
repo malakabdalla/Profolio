@@ -1,0 +1,7 @@
+.AboutMe {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
