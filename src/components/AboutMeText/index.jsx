@@ -10,6 +10,16 @@ function TextSection() {
     const close = document.getElementById("close");
     const container = document.getElementById("container");
 
+    const closePopupOnOutsideClick = (event) => {
+      if (
+        container &&
+        !container.contains(event.target) &&
+        event.target !== open
+      ) {
+        setShowPopup(false);
+      }
+    };
+
     if (open && close && container) {
       open.addEventListener("click", () => {
         container.classList.add("active");
@@ -18,6 +28,7 @@ function TextSection() {
       close.addEventListener("click", () => {
         container.classList.remove("active");
       });
+      document.addEventListener("click", closePopupOnOutsideClick);
     }
 
     return () => {

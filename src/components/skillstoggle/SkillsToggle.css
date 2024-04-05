@@ -61,3 +61,7 @@
     flex-direction: row;
     column-gap: 60px;
 }
+
+.skillsImg {
+    width: 800px;
+}

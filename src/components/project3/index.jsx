@@ -130,7 +130,7 @@ function Project3() {
               page Determine user’s improvement Upload video and images
             </p>
             <h3 className="titles">User flowchart </h3>
-            <img className="picPopup3" src="./userFlow.png" />
+            <img className="picPopup3" src="./Screenshot_1.png" />
           </div>
         </div>
       )}

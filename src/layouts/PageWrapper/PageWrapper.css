@@ -58,11 +58,22 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
-
+    margin-right: 60px;
+    position: sticky;
     color: #000000;
 
 
+
+}
+
+.page-container {
+    position: fixed;
+    top: 0;
+    width: 1300px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ddedf717;
+    backdrop-filter: blur(300px);
 
 }
 
@@ -92,7 +103,7 @@ a {
 }
 
 .navButton {
-    background: rgba(255, 255, 255, 0.027);
+    background-color: #ddedf717;
     color: #000;
 
     border: none;
@@ -113,7 +124,7 @@ a {
 
     border-radius: 10px;
 
-    box-shadow: 0 4px 6px rgba(44, 43, 43, 0.1);
+
     margin: 10px
 }
 

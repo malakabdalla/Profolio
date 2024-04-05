@@ -25,7 +25,7 @@ function SkillsToggle() {
             <div>
               <h2 className="toggle-skill-title">Technical Skills</h2>
               <div className="skill-container">
-                <img src="src\icons\icons.png" />
+                <img className="skillsImg" src="src\icons\icons.png" />
               </div>
             </div>
           ) : (
