@@ -41,7 +41,7 @@ function Project1() {
     <>
       <div className="projectcon">
         <h1 className="project-name">First Revision Website</h1>
-        <img className="proImg" src="/project1.png" />
+        <img className="pro1Img" src="/project1.png" />
         <div>
           <button className="button-project" onClick={togglePopup}>
             Want to know more about the project?

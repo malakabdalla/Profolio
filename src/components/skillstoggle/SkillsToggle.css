@@ -1,6 +1,6 @@
 .flip-container {
     display: flex;
-    justify-content: center;
+    margin-left: 60px;
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -29,6 +29,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 }
 
 .toggle-skill-title {
