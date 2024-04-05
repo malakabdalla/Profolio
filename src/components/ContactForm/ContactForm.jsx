@@ -1,7 +1,7 @@
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
-import { useRef } from "react";
+
 import "./contact.css";
 
 const SERVICE_ID = import.meta.env.VITE_REACT_APP_SERVICE_ID;
@@ -9,13 +9,8 @@ const TEMPLATE_ID = import.meta.env.VITE_REACT_APP_TEMPLATE_ID;
 const USER_ID = import.meta.env.VITE_REACT_APP_USER_ID;
 
 function ContactForm() {
-  const textAreaRef = useRef(null);
-
   const handleOnSubmit = (e) => {
     e.preventDefault();
-
-    const message = textAreaRef.current.value;
-    console.log("Message:", message);
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
       (result) => {
@@ -70,7 +65,6 @@ function ContactForm() {
           name="user_message"
           placeholder="Message…"
           required
-          ref={textAreaRef}
           className="form-field"
         />
         <Button type="submit" className="button-filed" color="green">
